@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;
+
+0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 95%;
+  margin: auto;
+}
+
+header .logo img {
+  width: 80%;
+}
+
+header .menu {
+  display: flex;
+}
+
+header .menu li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+header .menu li a {
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 96px;
+  color: #000;
+}
+
+header .menu li a.active,
+header .menu li a:hover {
+  color: #097ceb;
+  border-bottom: 4px solid #097ceb;
+  line-height: 96px;
+}
+
