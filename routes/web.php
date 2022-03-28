@@ -30,21 +30,13 @@ Route::get('/movies', function () {
     return view('movies');
 });
 
-Route::get('/tv', function () {
-    return view('tv');
-});
+
 
 Route::get('/games', function () {
     return view('games');
 });
 
-Route::get('/collectibles', function () {
-    return view('collectibles');
-});
 
-Route::get('/videos', function () {
-    return view('videos');
-});
 
 Route::get('/fans', function () {
     return view('fans');
